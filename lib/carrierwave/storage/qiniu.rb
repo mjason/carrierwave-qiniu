@@ -26,9 +26,7 @@ module CarrierWave
 
           put_policy = ::Qiniu::Auth::PutPolicy.new(
             @qiniu_bucket,
-            key,
-            1,
-            1
+            key
           )
 
           code, result, response_headers = ::Qiniu::Storage.upload_with_put_policy(

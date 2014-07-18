@@ -2,8 +2,8 @@
 require File.expand_path('../lib/carrierwave-qiniu/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Marble Wu"]
-  gem.email         = ["huobazi@gmail.com"]
+  gem.authors       = ["Marble Wu", 'mjason']
+  gem.email         = ["huobazi@gmail.com", 'tywf91@gmail.com']
   gem.description   = %q{Qiniu Storage support for CarrierWave}
   gem.summary       = %q{Qiniu Storage support for CarrierWave}
   gem.homepage      = "https://github.com/huobazi/carrierwave-qiniu"
